@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Users</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="heading">Github Users 🧑‍💻</h1>
+
+        <form class="form" id="form">
+          <input
+            type="search"
+            name="username"
+            id="username"
+            placeholder="Enter an username"
+          />
+          <button class="btn btn-submit">Search</button>
+        </form>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- top section | user info -->
+      <section class="user-section">
+        <div class="user-img-section" id="user-img-section">
+          <!-- <img
+            src=""
+            alt="img"
+            class="user-img"
+          /> -->
+        </div>
+        <div class="user-desc" id="user-desc">
+          <!-- <h2>Nitesh Yadav</h2>
+          <p>Bio goes here...</p>
+
+          <p>location</p>
+          <p><b>Twitter: </b>https://twitter.com/user</p> -->
+        </div>
+      </section>
+
+      <p style="margin: 1em 0" id="github-url"></p>
+
+      <!-- repository section -->
+
+      <section class="repo-section" id="repo-list"></section>
+
+      <div class="pagination">
+        <!-- <ul class="pagination-list">
+          <li class="pagination-item">
+            <i class="fa fa-angle-double-left" aria-hidden="true"></i> Prev
+          </li>
+          <li class="pagination-item">1</li>
+          <li class="pagination-item">2</li>
+          <li class="pagination-item">3</li>
+          <li class="pagination-item">4</li>
+          <li class="pagination-item">
+            Next <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          </li>
+        </ul> -->
+      </div>
+
+      <!-- initial UI -->
+      <div class="initial">
+        <img
+          src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
+          alt=""
+        />
+        <h2>EMPTY!</h2>
+        <p>Please search for a user</p>
+      </div>
+
+      <div class="loading">
+        <img
+          src="https://i.pinimg.com/originals/3d/6a/a9/3d6aa9082f3c9e285df9970dc7b762ac.gif"
+          alt=""
+        />
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
